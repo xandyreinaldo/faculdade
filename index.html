@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Alimentar Sustentável</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Educação Alimentar e Sustentabilidade</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#educacao">Educação Alimentar</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#receitas">Receitas</a></li>
+                <li><a href="#calculo">Cálculo de Porções</a></li>
+                <li><a href="#compartilhar">Compartilhar Dicas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de Início -->
+        <section id="home">
+            <h2>Bem-vindo ao nosso site!</h2>
+            <p>Aprenda como evitar desperdício e criar receitas sustentáveis aproveitando ao máximo os alimentos.</p>
+            <img src="image/002.jpg" alt="Imagem de sustentabilidade alimentar">
+        </section>
+
+        <!-- Seção Educação Alimentar -->
+        <section id="educacao">
+            <h2>Educação Alimentar</h2>
+            <p>Aqui você encontra informações sobre práticas alimentares que ajudam a melhorar a saúde e o meio ambiente.</p>
+            <h3>Benefícios de uma alimentação sustentável:</h3>
+            <ul>
+                <li><strong>Redução do desperdício:</strong> Planejar refeições ajuda a consumir alimentos antes que estraguem.</li>
+                <li><strong>Economia:</strong> Consumir produtos locais e de estação é mais barato e saudável.</li>
+                <li><strong>Saúde:</strong> Dietas ricas em alimentos naturais diminuem o risco de doenças crônicas.</li>
+                <li><strong>Impacto ambiental:</strong> Comer menos carne e produtos ultraprocessados reduz a pegada ecológica.</li>
+            </ul>
+            <h3>Dicas para uma alimentação mais consciente:</h3>
+            <ol>
+                <li>Prefira alimentos orgânicos, de pequenos produtores.</li>
+                <li>Planeje suas refeições da semana com antecedência.</li>
+                <li>Priorize alimentos integrais e naturais.</li>
+                <li>Aumente o consumo de frutas, verduras e legumes.</li>
+            </ol>
+        </section>
+
+        <!-- Seção Dicas de Reaproveitamento -->
+        <section id="dicas">
+            <h2>Dicas de Reaproveitamento</h2>
+            <p>Veja como aproveitar os alimentos ao máximo e evitar o desperdício em sua cozinha:</p>
+            <h3>Dicas práticas:</h3>
+            <ul>
+                <li><strong>Cascas de legumes:</strong> Aproveite as cascas de cenoura, batata e abóbora para fazer caldos caseiros.</li>
+                <li><strong>Pães velhos:</strong> Transforme pães que sobraram em torradas ou croutons para saladas e sopas.</li>
+                <li><strong>Sobras de arroz:</strong> Utilize sobras de arroz para fazer bolinhos de arroz ou acrescentar em sopas.</li>
+                <li><strong>Folhas e talos:</strong> Talos de brócolis e couve podem ser usados em refogados ou sucos verdes.</li>
+            </ul>
+        </section>
+
+        <!-- Seção Receitas Sustentáveis -->
+        <section id="receitas">
+            <h2>Receitas Sustentáveis</h2>
+            <p>Descubra receitas que ajudam a reduzir o desperdício de alimentos, usando ingredientes de forma criativa.</p>
+
+            <!-- Receita 1 -->
+            <article>
+                <h3>Sopa de Legumes com Sobras</h3>
+                <p>Aproveite sobras de legumes para fazer uma sopa nutritiva. Adicione temperos como alho, cebola, e ervas frescas para mais sabor.</p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>1 xícara de sobras de cenoura, abobrinha, batata e outros legumes</li>
+                    <li>1 cebola picada</li>
+                    <li>2 dentes de alho</li>
+                    <li>1 litro de caldo de legumes</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <h4>Modo de preparo:</h4>
+                <p>Refogue a cebola e o alho em azeite, adicione os legumes e o caldo, deixe cozinhar por 15-20 minutos. Tempere e sirva quente.</p>
+            </article>
+
+            <!-- Receita 2 -->
+            <article>
+                <h3>Pão de Banana com Bananas Maduras</h3>
+                <p>Se suas bananas estão muito maduras, transforme-as em um delicioso pão de banana que é perfeito para o café da manhã.</p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>3 bananas maduras amassadas</li>
+                    <li>1/2 xícara de açúcar mascavo</li>
+                    <li>2 ovos</li>
+                    <li>1/2 xícara de óleo vegetal</li>
+                    <li>1 1/2 xícara de farinha de trigo</li>
+                    <li>1 colher de chá de fermento em pó</li>
+                </ul>
+                <h4>Modo de preparo:</h4>
+                <p>Misture todos os ingredientes em uma tigela, coloque em uma forma e leve ao forno pré-aquecido a 180°C por 40-45 minutos.</p>
+            </article>
+        </section>
+
+        <!-- Seção Cálculo de Porções -->
+        <section id="calculo">
+            <h2>Calcule suas Porções</h2>
+            <p>Digite o número de pessoas para calcular a quantidade de comida necessária para sua refeição.</p>
+            <label for="pessoas">Número de pessoas:</label>
+            <input type="number" id="pessoas" min="1">
+            <button onclick="calcularPorcoes()">Calcular</button>
+            <p id="resultado"></p>
+        </section>
+
+        <!-- Seção Compartilhar Dicas -->
+        <section id="compartilhar">
+            <h2>Compartilhe suas Dicas</h2>
+            <p>Tem uma dica de reaproveitamento de alimentos? Compartilhe conosco e ajude outras pessoas a reduzir o desperdício!</p>
+            <textarea id="dica" rows="4" cols="50" placeholder="Escreva sua dica aqui"></textarea>
+            <button onclick="compartilharDica()">Enviar</button>
+
+            <h3>Dicas Compartilhadas:</h3>
+            <div id="dicas-compartilhadas"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educação Alimentar Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
